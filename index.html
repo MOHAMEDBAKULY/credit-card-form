@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Credit card Form</title>
+</head>
+<body>
+    <div class="form--body">
+        <div class="credit--card">
+            <div class="card--images">
+                <img src="assets/cc-logo.png" alt="" class="image--one">
+                <img src="assets/visa-logo.png" alt="" class="image--two">
+            </div>
+            <h1 class="card--number">5366 **** **** 3848</h1>
+
+              <div class="card--bottom">
+
+              <div class="card--name">
+                <h3 class="card--holder">card holder</h3>
+                <h1 class="card--individual">MOHAMED BAKULY</h1>
+             </div> 
+
+             <div class="card--expires">
+                <h3 class="card--expiring">Expires</h3>
+                <h1 class="card--date">02/28</h1>
+             </div>
+            </div>
+        </div>
+
+        <form action="">
+            <div class="forms">
+            <label for="CardNumber">Card Number</label>
+            <input type="tel" inputmode="numeric" id="CardNumber" pattern="[0-9\s{13-19}]" maxlength="19" name="CardNumber" placeholder="xxxx xxxx xxxx xxxx">
+            <label for="CardHolder">Card Holder</label>
+            <input type="text" id="CardHolder" name="CardHolder">
+           </div>
+            
+              <div class="Expire">
+                <div class="exp--date">
+            <span class="date">Epiration date</span>
+            <select name="expiry" id="dates">
+                <option value="one">01</option>
+                <option value="one">02</option>
+                <option value="one">03</option>
+                <option value="one">04</option>
+                <option value="one">05</option>
+                <option value="one">06</option>
+                <option value="one">07</option>
+                <option value="one">08</option>
+                <option value="one">09</option>
+                <option value="one">10</option>
+                <option value="one">11</option>
+                <option value="one">12</option>
+            </select>
+            <select name="expiry" id="years">
+                <option value="years">2023</option>
+                <option value="years">2022</option>
+                <option value="years">2021</option>
+                <option value="years">2020</option>
+                <option value="years">2019</option>
+                <option value="years">2018</option>
+                <option value="years">2017</option>
+                <option value="years">2016</option>
+                <option value="years">2015</option>
+                <option value="years">2014</option>
+                <option value="years">2013</option>
+                <option value="years">2012</option>
+                <option value="years">2011</option>
+            </select>
+        </div>
+
+            <div class="exp--cvv">
+                <span class="CVV">CVV</span>
+                <input type="tel"  inputmode="numeric" maxlength="3" placeholder="xxx" class="CVVbox">
+              </div>
+            </div>
+
+            <button>Submit</button>
+          </div>
+        </form>
+    </div>
+</body>
+</html>

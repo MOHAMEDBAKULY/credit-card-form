@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.form--body{
+    height: 100vh;
+    background: rgb(216, 210, 210);
+    width: 900px;
+    box-shadow: 6px 3px 8px rgba(0,0,0,0.76);
+    border-radius: 20px;
+    margin: auto;
+}
+
+.form--body .credit--card{
+    background: #000;
+    height: 350px;
+    width: 550px;
+    margin: auto;
+    border-radius: 30px;
+    background: linear-gradient(0deg, rgba(20,28,41,0.9472163865546218) 69%, rgba(34,193,195,1) 100%);
+}
+.credit--card{
+    margin-top: 40px;
+}
+.card--images,img{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-inline: 7px;
+}
+
+.card--number{
+    color: aliceblue;
+    margin-top: 80px;
+    font-size: 35px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.card--bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-block: 50px;
+    margin-inline: 20px;
+}
+
+
+.card--name .card--holder{
+    color: grey;
+    font-weight: 500;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.card--name .card--individual{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: azure;
+}
+
+.card--expires .card--expiring{
+    color: grey;
+    font-weight: 500;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.card--expires .card--date{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:azure;
+}
+
+.forms{
+    display: grid;
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    gap: 10px;
+}
+
+.forms label{
+    color: rgb(6, 12, 12);
+}
+
+.forms input{
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 8px;
+    border: 2px solid aliceblue;
+}
+
+ form .Expire{
+    display: flex;
+    gap: 250px;
+    margin-top: 20px;
+}
+
+.Expire .exp--date{
+    display: grid;
+    gap:10px;
+    margin-left: 70px;
+}
+
+span{
+    font-size: 17px;
+    font-weight: 600;
+    color: rgb(116, 113, 113);
+}
+
+select{
+    padding: 6px 1px;
+    width: 200px;
+    outline: none;
+    border: none;
+    text-indent: 8px;
+    color: #000;
+    border-radius: 6px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.Expire .exp--cvv{
+    display: grid;
+
+}
+
+.Expire .exp--cvv input{
+    height: 30px;
+    padding: 6px 1px;
+    width: 200px;
+    text-indent: 8px;
+    outline: none;
+    border: none;
+    color: #000;
+    border-radius: 6px;
+    height: 30px;
+    cursor: pointer;
+}
+
+form button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    width: 85%;
+    height: 40px;
+    border-radius: 8px;
+    outline:none ;
+    border: 2px solid whitesmoke;
+    text-transform: uppercase;
+    font-size: 26px;
+    color: blueviolet;
+    cursor: pointer;
+    margin-left: 60px;
+}
+
+
